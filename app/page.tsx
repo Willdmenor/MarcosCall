@@ -47,35 +47,34 @@ export default function Home() {
 
       <WhatsAppFAB />
       {/* MAPA */}
-<div className="container">
+<div className="location-container">
 
-  <div className="card">
+  <div className="location-card">
 
-    <div className="address-header">
+    <div className="location-header">
 
-      <div className="pin">
+      <div className="location-pin">
         <img
           src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
           alt=""
         />
       </div>
 
-      <div className="address-text">
-        R. Antonio de Oliveira Melo, 338 – Brasília,
-        Arapiraca – AL, 57313-050, Brasil
+      <div className="location-text">
+  Av. Santa Cruz, 26 – Taquarana, AL, Brasil
       </div>
 
     </div>
 
     <iframe
-      className="map"
-      src="https://maps.google.com/maps?q=R.%20Antonio%20de%20Oliveira%20Melo,%20338%20-%20Brasilia,%20Arapiraca%20-%20AL&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      className="location-map"
+  src="https://maps.google.com/maps?q=Av.%20Santa%20Cruz,%2026%20Taquarana%20AL&t=&z=15&ie=UTF8&iwloc=&output=embed"
     />
 
     <a
-      className="button"
-      href="https://maps.google.com/?q=R.%20Antonio%20de%20Oliveira%20Melo,%20338%20-%20Brasilia,%20Arapiraca%20-%20AL"
-      target="_blank"
+        className="location-button"
+  href="https://maps.google.com/?q=Av.%20Santa%20Cruz,%2026%20Taquarana%20AL"
+  target="_blank"
     >
       Abrir endereço no Maps
     </a>

@@ -111,27 +111,27 @@
   margin:auto;
 }
 
-.container{
+.location-container{
   width:100%;
   max-width:420px;
   margin:auto;
 }
 
-.card{
+.location-card{
   border:2px solid rgba(255,255,255,0.2);
   background:rgba(255,255,255,0.05);
   padding:16px;
   margin-top:40px;
 }
 
-.address-header{
+.location-address-header{
   display:flex;
   gap:14px;
   align-items:flex-start;
   margin-bottom:18px;
 }
 
-.pin{
+.location-pin{
   width:70px;
   height:70px;
   border-radius:6px;
@@ -139,19 +139,19 @@
   flex-shrink:0;
 }
 
-.pin img{
+.location-pin img{
   width:100%;
   height:100%;
   object-fit:cover;
 }
 
-.address-text{
+.location-address-text{
   font-size:20px;
   line-height:1.5;
   color:#dcdcdc;
 }
 
-.map{
+.location-map{
   width:100%;
   height:350px;
   border:none;
@@ -159,7 +159,7 @@
   margin-bottom:20px;
 }
 
-.button{
+.location-button{
   display:block;
   width:100%;
   text-align:center;
