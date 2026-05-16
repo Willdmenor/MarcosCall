@@ -56,7 +56,7 @@ export function CTASection() {
         transition={{ delay: 0.3 }}
         className="text-[10px] text-muted-foreground text-center"
       >
-        ✓ Resposta rápida &nbsp;&bull;&nbsp; ✓ Sem compromisso &nbsp;&bull;&nbsp; ✓ Atendimento humano
+        ✓ Resposta rápida &nbsp;&bull;&nbsp; ✓ Com compromisso &nbsp;&bull;&nbsp; ✓ Atendimento humano
       </motion.p>
     </section>
   )

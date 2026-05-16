@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Instagram } from 'lucide-react'
 
-const INSTAGRAM_URL = 'https://www.instagram.com/marcos_calcadoss?igsh=MWhub2JyYXhkd3MzNg%3D%3D&utm_source=qr'
+const INSTAGRAM_URL = 'https://www.instagram.com/marcoscallcados/'
 
 const posts = [
   { id: 1, image: '/images/feed1.jpg', likes: '1.2K', alt: 'Sneakers premium' },
@@ -28,7 +28,7 @@ export function InstagramFeed() {
         <div className="flex items-center gap-2">
           <Instagram className="w-4 h-4 text-[oklch(0.78_0.12_85)]" aria-hidden="true" />
           <span className="text-xs font-semibold text-foreground tracking-wide">
-            @marcos_calcadoss
+            @marcoscallcados
           </span>
         </div>
         <a

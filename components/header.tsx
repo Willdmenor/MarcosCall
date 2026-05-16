@@ -71,7 +71,7 @@ export function Header() {
           className="flex items-center gap-6 mt-1"
         >
           {[
-            { label: 'Seguidores', value: '12K' },
+            { label: 'Seguidores', value: '3.5K' },
             { label: 'Produtos', value: '500+' },
             { label: 'Avaliação', value: '⭐ 4.9' },
           ].map((stat) => (
