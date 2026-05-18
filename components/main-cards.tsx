@@ -40,52 +40,7 @@ const cards = [
     subtitle: 'WhatsApp • Resposta imediata',
     href: 'https://wa.me/5582996239370?text=Olá! Vim pelo link e quero saber mais.',
   },
-  {
-    <div className="flex items-center gap-3 sm:gap-5 lg:gap-8">
-        <a
-          href="https://www.instagram.com/marcoscallcados/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-9 h-9 xs:w-10 xs:h-10 sm:w-11 sm:h-11 lg:w-14 lg:h-14 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 active:scale-95"
-          style={{
-            background: "rgba(201,169,110,0.08)",
-            border: "1px solid rgba(201,169,110,0.25)",
-            color: "#C9A96E",
-          }}
-          aria-label="Instagram Marcos Callçados"
-        >
-          <InstagramIcon />
-        </a>
-
-        {/* Brand name between icons */}
-        <div className="text-center">
-          <p className="font-serif font-bold text-xs xs:text-sm sm:text-base lg:text-lg xl:text-xl tracking-widest text-white">CHSTYLE</p>
-          <p
-            className="font-sans text-[8px] xs:text-[9px] sm:text-[10px] lg:text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase mt-0.5"
-            style={{ color: "#C9A96E" }}
-          >
-            Marcos Callçados
-          </p>
-        </div>
-
-        <a
-          href="https://www.tiktok.com/@marcosantonio38739?_r=1&_t=ZS-96MIycO4s2W"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-9 h-9 xs:w-10 xs:h-10 sm:w-11 sm:h-11 lg:w-14 lg:h-14 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110 active:scale-95"
-          style={{
-            background: "rgba(201,169,110,0.08)",
-            border: "1px solid rgba(201,169,110,0.25)",
-            color: "#C9A96E",
-          }}
-          aria-label="TikTok CHSTYLE"
-        >
-          <TikTokIcon />
-        </a>
-      </div>
-    </motion.footer>
-  )
-}
+  
 
 ]
 
