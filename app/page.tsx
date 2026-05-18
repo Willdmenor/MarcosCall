@@ -1,3 +1,5 @@
+'use client'
+
 import { Header } from '@/components/header'
 import { Benefits } from '@/components/benefits'
 import { MainCards } from '@/components/main-cards'
