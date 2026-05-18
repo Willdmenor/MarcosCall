@@ -114,9 +114,9 @@ export function MainCards() {
 
   <div className="text-center">
     <p className="font-serif font-bold text-xs xs:text-sm sm:text-base lg:text-lg xl:text-xl tracking-widest text-white">
-      ESTILO E RESPEITO
+     ESTILO E RESPEITO 
     </p>
-
+     
     <p
       className="font-sans text-[8px] xs:text-[9px] sm:text-[10px] lg:text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase mt-0.5"
       style={{ color: "#C9A96E" }}
