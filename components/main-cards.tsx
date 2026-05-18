@@ -40,7 +40,7 @@ const cards = [
     subtitle: 'WhatsApp • Resposta imediata',
     href: 'https://wa.me/5582996239370?text=Olá! Vim pelo link e quero saber mais.',
   },
-  
+
 
 ]
 
@@ -114,7 +114,7 @@ export function MainCards() {
 
   <div className="text-center">
     <p className="font-serif font-bold text-xs xs:text-sm sm:text-base lg:text-lg xl:text-xl tracking-widest text-white">
-      CHSTYLE
+      ESTILO E RESPEITO
     </p>
 
     <p
