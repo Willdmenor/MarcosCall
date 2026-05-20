@@ -36,22 +36,7 @@ export default function Home() {
 
         <MainCards />
 
-        {/* Divider */}
-        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-
-        <InstagramFeed />
-
-        {/* Divider */}
-        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-
-        <CTASection />
-
-        <Footer />
-      </div>
-
-      <WhatsAppFAB />
-   
-    <div className="w-full max-w-[420px] mx-auto mt-10">
+         <div className="w-full max-w-[420px] mx-auto mt-10">
 
   <button
     onClick={() => setOpenMap(!openMap)}
@@ -98,6 +83,23 @@ export default function Home() {
 
 
 </div>
+
+        {/* Divider */}
+        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+
+        <InstagramFeed />
+
+        {/* Divider */}
+        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+
+        <CTASection />
+
+        <Footer />
+      </div>
+
+      <WhatsAppFAB />
+   
+   
     </main>
   )
 }
