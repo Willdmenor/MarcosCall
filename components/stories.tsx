@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 const stories = [
-  { label: 'Sneakers', image: '/images/story-sneakers.jpg', href: '#' },
-  { label: 'Slides', image: '/images/story-slides.jpg', href: '#' },
-  { label: 'Masculino', image: '/images/story-masc.jpg', href: '#' },
-  { label: 'Feminino', image: '/images/story-fem.jpg', href: '#' },
+  { label: 'Sneakers', image: '/images/story-sneakers.jpeg', href: '#' },
+  { label: 'Slides', image: '/images/story-slides.jpeg', href: '#' },
+  { label: 'Masculino', image: '/images/story-masc.jpeg', href: '#' },
+  { label: 'Feminino', image: '/images/story-fem.jpeg', href: '#' },
   { label: 'Promoções', image: '/images/story-promo.jpg', href: '#' },
 ]
 
