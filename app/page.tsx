@@ -36,7 +36,15 @@ export default function Home() {
 
         <MainCards />
 
-         <div className="w-full max-w-[420px] mx-auto mt-10">
+
+</div>
+
+        {/* Divider */}
+        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+
+        <InstagramFeed />
+
+          <div className="w-full max-w-[420px] mx-auto mt-10">
 
   <button
     onClick={() => setOpenMap(!openMap)}
@@ -79,15 +87,6 @@ export default function Home() {
 
     </div>
   )}
-
-
-
-</div>
-
-        {/* Divider */}
-        <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-
-        <InstagramFeed />
 
         {/* Divider */}
         <div className="mx-6 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
