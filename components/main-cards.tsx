@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useState } from 'react'
 import {
   MessageCircle,
   Instagram,
@@ -45,6 +46,9 @@ const cards = [
 ]
 
 export function MainCards() {
+
+  const [openMap, setOpenMap] = useState(false)
+
   return (
     <section aria-label="Links principais" className="px-4 py-2 flex flex-col gap-3">
       <motion.h2
@@ -144,8 +148,6 @@ export function MainCards() {
   )}
 
 </div>
-
-<div className="flex items-center justify-center gap-3 sm:gap-5 lg:gap-8 mt-6"></div>
 
       <div className="flex items-center justify-center gap-3 sm:gap-5 lg:gap-8 mt-6">
 
