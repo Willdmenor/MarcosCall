@@ -50,9 +50,6 @@ export function Header() {
           <h1 className="font-serif text-2xl font-bold tracking-widest text-foreground uppercase glow-gold-text">
             Marcos Calçados
           </h1>
-          <p className="text-xs tracking-[0.25em] text-[oklch(0.78_0.12_85)] font-sans uppercase">
-            Style • Qualidade • Conforto
-          </p>
 
           {/* Gold divider */}
           <motion.div
