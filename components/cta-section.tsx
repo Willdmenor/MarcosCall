@@ -20,34 +20,6 @@ export function CTASection() {
         </h2>
       </motion.div>
 
-      <motion.a
-        href="https://wa.me/5582982133372?text=Olá! Vim pelo link e quero saber mais."
-        target="_blank"
-        rel="noopener noreferrer"
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        whileTap={{ scale: 0.96 }}
-        transition={{ duration: 0.4 }}
-        className="relative w-full flex items-center justify-center gap-3 py-4 px-6 rounded-2xl font-semibold text-sm tracking-wide transition-all duration-300 glow-gold overflow-hidden group"
-        style={{
-          background: 'linear-gradient(135deg, oklch(0.78 0.12 85), oklch(0.65 0.1 85 / 0.9))',
-          color: '#0a0a0a',
-          WebkitTapHighlightColor: 'transparent',
-        }}
-      >
-        <motion.span
-          className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-          style={{
-            background: 'linear-gradient(135deg, oklch(0.85 0.12 85), oklch(0.7 0.1 85))',
-          }}
-        />
-        <MessageCircle className="w-5 h-5 relative z-10" aria-hidden="true" />
-        <span className="relative z-10 uppercase tracking-widest text-xs font-bold">
-          Chamar no WhatsApp
-        </span>
-      </motion.a>
-
       {/* Trust line */}
       <motion.p
         initial={{ opacity: 0 }}
